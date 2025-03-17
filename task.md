@@ -14,6 +14,7 @@ This section lists topics and sub-topics where the current student has misconcep
 
 **Assumptions:**  
 - A DB with questions, a foreign key linking the students to the questions, and a link table of student answers which tracks the student's response and whether or not they answered the question correctly.
+- Would also have a topics table which relates to the questions to the topics. Topics would also have a parentTopicId that could be null if no parent topic is required, such as Number or Algebra on the Figma spec.
 
 **Route:** /improve/{student_id:int}/misconceptions  
 **Request:** N/A - id route parameter is sufficient  
